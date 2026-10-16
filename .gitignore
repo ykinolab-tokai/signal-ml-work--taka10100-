@@ -1,0 +1,32 @@
+# Python environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.uv-cache/
+.matplotlib/
+build/
+dist/
+*.egg-info/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+
+# Input datasets and large model artifacts
+/data/
+/checkpoints/
+
+# Editor and operating system temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Keep exercise/, outputs/, and shared .vscode settings versioned.
